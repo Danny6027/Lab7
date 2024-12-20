@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="113306027_Lab7.css">
+</head>
+<body>
+    <h1>Grade Tracker</h1>
+    <div class="input-container">
+        <label for="math-grade">Math Grade:</label>
+        <input type="number" id="math-grade" min="0" max="100" required>
+        <label for="english-grade">English Grade:</label>
+        <input type="number" id="english-grade" min="0" max="100" required>
+        <button id="submit-button">Submit</button>
+    </div>
+    <table id="grades-table">
+        <thead>
+            <tr>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td id="math-average">-</td>
+                <td id="english-average">-</td>
+                <td id="overall-average">-</td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="113306027_Lab7.js"></script>
+</body>
+</html>
